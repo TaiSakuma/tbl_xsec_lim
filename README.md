@@ -10,7 +10,7 @@ In a CMSSW environment
         $ cmsrel CMSSW_5_3_12_patch2
         $ cd CMSSW_5_3_12_patch2
         $ cvs co -r V00-02-06 StatisticalTools/RooStatsRoutines
-        root -b
+        $ root -b
         root [0] gSystem -> SetIncludePath( "-I$ROOFITSYS/include" );
         root [1] .L StatisticalTools/RooStatsRoutines/root/roostats_cl95.C+
         root [2] .q
